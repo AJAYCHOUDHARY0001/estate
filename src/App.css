@@ -1,38 +1,204 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Oleo+Script&family=Space+Grotesk:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  /* -----FONT SIZE---- */
+  --fs-xsm: 19px;
+  --fs-sm: 24px;
+  --fs-md: 32px;
+  --fs-lg: 36px;
+  --fs-xl: 48px;
+  --fs-xxl: 64px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* -------FONT SIZE------- */
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
 }
 
-.App-header {
-  background-color: #282c34;
+.ff_nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.ff_oleo {
+  font-family: "Oleo Script", cursive;
+}
+
+.ff_space {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
+
+.blue_clr {
+  color: #0f298b !important;
+}
+
+.blue_hover_clr {
+  transition: 300ms all ease-in-out;
+}
+
+.blue_hover_clr:hover {
+  color: #0f298b !important;
+  -webkit-text-stroke: 1.2px #0f298b;
+}
+
+.butn1 {
+  padding: 18px 24px;
+  background: #2549d3;
+  border-radius: 10px;
+  color: #ffffff !important;
+  transition: all 300ms ease-in-out;
+}
+
+.butn1:hover {
+  box-shadow: 0 0 10px #2549d3;
+}
+
+.white_clr {
+  color: #ffffff !important;
+}
+
+.blk_clr {
+  color: #000000 !important;
+}
+
+.header_bg {
+  background-color: #fafafa;
+}
+
+.white_bg {
+  background-color: #ffffff;
+}
+
+.fix-navbar {
+  height: 100vh;
+  position: fixed;
+  top: 0%;
+  left: -100%;
+  transition: 400ms ease-in-out;
+  position: absolute;
+  z-index: 10;
+}
+
+.nav-fix {
+  position: absolute;
+  left: 0;
+  top: 0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  transition: 400ms ease-in-out;
+  z-index: 10;
+  padding: 60px 24px 24px 24px;
 }
 
-.App-link {
-  color: #61dafb;
+nav span {
+  width: 30px;
+  height: 3px;
+  background-color: #000000;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.butn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.btn-close {
+  padding: 12px !important;
+}
+
+.border_none {
+  border: none;
+  background: transparent;
+}
+
+/* ------------------MEDIA QUARY-------------------- */
+@media (max-width: 575.98px) {
+  :root {
+    /* -----FONT SIZE---- */
+    --fs-xsm: 19px;
+    --fs-sm: 22px;
+    --fs-md: 32px;
+    --fs-lg: 36px;
+    --fs-xl: 48px;
+    --fs-xxl: 64px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (min-width: 576px) {
+  :root {
+    /* -----FONT SIZE---- */
+    --fs-xsm: 19px;
+    --fs-sm: 22px;
+    --fs-md: 32px;
+    --fs-lg: 36px;
+    --fs-xl: 48px;
+    --fs-xxl: 64px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    /* -----FONT SIZE---- */
+    --fs-xsm: 19px;
+    --fs-sm: 22px;
+    --fs-md: 32px;
+    --fs-lg: 36px;
+    --fs-xl: 48px;
+    --fs-xxl: 64px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    /* -----FONT SIZE---- */
+    --fs-xsm: 19px;
+    --fs-sm: 22px;
+    --fs-md: 32px;
+    --fs-lg: 36px;
+    --fs-xl: 48px;
+    --fs-xxl: 64px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    /* -----FONT SIZE---- */
+    --fs-xsm: 19px;
+    --fs-sm: 24px;
+    --fs-md: 32px;
+    --fs-lg: 36px;
+    --fs-xl: 48px;
+    --fs-xxl: 64px;
   }
 }
