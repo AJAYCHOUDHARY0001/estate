@@ -84,7 +84,7 @@
 }
 
 .butn1:hover {
-  box-shadow: 0 0 10px #2549d3;
+  box-shadow: 0 0 20px #2549d3;
 }
 
 .white_clr {
@@ -95,7 +95,7 @@
   color: #000000 !important;
 }
 
-.header_bg {
+body {
   background-color: #fafafa;
 }
 
@@ -124,13 +124,6 @@
   padding: 60px 24px 24px 24px;
 }
 
-nav span {
-  width: 30px;
-  height: 3px;
-  background-color: #000000;
-  display: inline-block;
-}
-
 .butn {
   position: absolute;
   top: 30px;
@@ -144,6 +137,10 @@ nav span {
 .border_none {
   border: none;
   background: transparent;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #c4c4c4;
 }
 
 /* ------------------MEDIA QUARY-------------------- */
