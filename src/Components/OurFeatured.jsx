@@ -7,7 +7,7 @@ export const OurFeatured = () => {
   return (
     <>
       <section>
-        <div className="container py-5">
+        <div className="container py-4 py-sm-5">
           <h2 className="ff_space text-center blue_clr fw-bold fs_xl">
             Our Featured Properties.
           </h2>

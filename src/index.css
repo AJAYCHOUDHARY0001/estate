@@ -16,10 +16,6 @@ body {
   box-shadow: 24px 24px 48px rgba(0, 0, 0, 0.05);
 }
 
-.card_1 {
-  /* transition: all 300ms ease-in; */
-  border-radius: 0px 39.7214px;
-}
 .border_radius_0_39 {
   border-radius: 0px 39.7214px;
 }
@@ -29,3 +25,4 @@ body {
     width: 31.5% !important;
   }
 }
+/* Testimonials. Section */
