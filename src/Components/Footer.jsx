@@ -99,7 +99,7 @@ export const Footer = () => {
               </div>
             </div>
             {/* Resources  */}
-            <div className="col-md-6 col-lg-2 mt-4 mt-lg-0 d-flex justify-content-center text-center text-lg-start">
+            <div className="d-flex mt-lg-0 col-md-6 col-lg-2 mt-4  justify-content-center text-center text-lg-start">
               <div className="h-100">
                 <a className=" ff_oleo fw_400 fs_lg text-white m-0" href="/">
                   Resources
