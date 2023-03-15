@@ -25,4 +25,10 @@ body {
     width: 31.5% !important;
   }
 }
-/* Testimonials. Section */
+/* Footer */
+.bg_blue {
+  background-color: #0f298b;
+}
+.width_400 {
+  width: 331px;
+}
