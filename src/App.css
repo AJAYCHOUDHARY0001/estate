@@ -23,7 +23,7 @@
   font-size: var(--fs-xsm);
 }
 .fs_sm {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-sm) !important;
 }
 .fs_md {
   font-size: var(--fs-md);
@@ -39,27 +39,27 @@
 }
 
 .ff_nunito {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
 }
 
 .ff_oleo {
-  font-family: "Oleo Script", cursive;
+  font-family: "Oleo Script", cursive !important;
 }
 
 .ff_space {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Grotesk", sans-serif !important;
 }
 
 .fw_400 {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .fw_500 {
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .fw_700 {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .blue_clr {
@@ -97,6 +97,10 @@
 
 body {
   background-color: #fafafa;
+}
+
+.z_indx {
+  z-index: 1000;
 }
 
 .white_bg {
@@ -143,27 +147,163 @@ body {
   border-bottom: 1px solid #c4c4c4;
 }
 
+.detail_box {
+  background: #ffffff;
+  box-shadow: 24px 24px 48px rgba(37, 73, 211, 0.05);
+  border-radius: 28px;
+  padding: 48px 67px;
+}
+
+.btn-success {
+  --bs-btn-bg: #fff !important;
+  --bs-btn-border-color: #fff !important;
+  --bs-btn-hover-bg: #fff !important;
+  --bs-btn-hover-border-color: #fff !important;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-bg: #fff !important;
+  --bs-btn-active-border-color: #fff !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-bg: #fff !important;
+  --bs-btn-disabled-border-color: #fff !important;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: -2px !important;
+  content: url("./assets/images/svg/Vector.svg") !important;
+  border: none !important;
+}
+
+.up_btn_bg {
+  background-color: #0f298b;
+  width: 70px;
+  height: 70px;
+}
+
+.uparrow {
+  animation: uparrow 1.5s linear infinite alternate-reverse;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.rad_50 {
+  border-radius: 50%;
+}
+
+/* ----------LOADER---------- */
+.lds-spinner {
+  color: official;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 20%;
+  background: #0f298b;
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* ----------LOADER---------- */
+
+@keyframes uparrow {
+  0% {
+    transform: translateY(-0.5rem);
+  }
+
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
+
 /* ------------------MEDIA QUARY-------------------- */
 @media (max-width: 575.98px) {
   :root {
     /* -----FONT SIZE---- */
-    --fs-xsm: 19px;
-    --fs-sm: 22px;
-    --fs-md: 32px;
-    --fs-lg: 36px;
-    --fs-xl: 48px;
-    --fs-xxl: 64px;
+    --fs-xsm: 14px;
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-lg: 24px;
+    --fs-xl: 30px;
+    --fs-xxl: 36px;
   }
 }
+
 @media (min-width: 576px) {
   :root {
     /* -----FONT SIZE---- */
-    --fs-xsm: 19px;
-    --fs-sm: 22px;
-    --fs-md: 32px;
+    --fs-xsm: 18px;
+    --fs-sm: 20px;
+    --fs-md: 26px;
     --fs-lg: 36px;
-    --fs-xl: 48px;
-    --fs-xxl: 64px;
+    --fs-xl: 40px;
+    --fs-xxl: 54px;
   }
 }
 @media (min-width: 768px) {
@@ -173,8 +313,8 @@ body {
     --fs-sm: 22px;
     --fs-md: 32px;
     --fs-lg: 36px;
-    --fs-xl: 48px;
-    --fs-xxl: 64px;
+    --fs-xl: 44px;
+    --fs-xxl: 56px;
   }
 }
 @media (min-width: 992px) {

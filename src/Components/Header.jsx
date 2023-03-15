@@ -131,9 +131,9 @@ function Header() {
           </div>
         </div>
       </section>
-      <section className="container  py-4 py-5">
-        <div className="row">
-          <div className="col-6">
+      <section className="container py-4 py-5">
+        <div className="row flex-column-reverse flex-md-row">
+          <div className="col-md-6">
             <h1 className="ff_space fw_500 fs_xxl blue_clr">
               Helping you find the property of your dreams.
             </h1>
@@ -152,7 +152,7 @@ function Header() {
               </a>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <img className="w-100" src={hero_img} alt="hero_img" />
           </div>
         </div>
