@@ -3,3 +3,32 @@
   color: rgba(0, 0, 0, 0.81);
 }
 /* Our Featured  */
+body {
+  background-color: #fafafa !important;
+}
+.bg_blue {
+  background: #2549d3;
+}
+.border_tran {
+  border-color: transparent;
+}
+.card_1:hover {
+  box-shadow: 24px 24px 48px rgba(0, 0, 0, 0.05);
+}
+
+.border_radius_0_39 {
+  border-radius: 0px 39.7214px;
+}
+@media (min-width: 768px) {
+  .width_md_31 {
+    flex: 0 0 auto !important;
+    width: 31.5% !important;
+  }
+}
+/* Footer */
+.bg_blue {
+  background-color: #0f298b;
+}
+.width_400 {
+  width: 331px;
+}

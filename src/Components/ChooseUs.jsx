@@ -6,7 +6,7 @@ export const ChooseUs = () => {
   return (
     <>
       <section>
-        <div className="container py-5">
+        <div className="container py-4 py-sm-5">
           <div className="row py-lg-5 align-items-center justify-content-between">
             {/* img */}
             <div className="col-12 col-md-5 col-lg-5">
