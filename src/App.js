@@ -7,7 +7,7 @@ import { OurFeatured } from "./Components/OurFeatured";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <ChooseUs />
       <OurFeatured />
     </>
