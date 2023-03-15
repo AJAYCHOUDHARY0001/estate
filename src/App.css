@@ -176,7 +176,7 @@ body {
 }
 
 .up_btn_bg {
-  background-color: #0f298b;
+  background-color: #2549d3;
   width: 70px;
   height: 70px;
 }
@@ -212,7 +212,7 @@ body {
   width: 6px;
   height: 18px;
   border-radius: 20%;
-  background: #0f298b;
+  background: #2549d3;
 }
 .lds-spinner div:nth-child(1) {
   transform: rotate(0deg);
