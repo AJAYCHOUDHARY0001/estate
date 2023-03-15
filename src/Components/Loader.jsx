@@ -18,7 +18,7 @@ function Loader() {
   return (
     <>
       {loader ? (
-        <section className="min-vh-100 bg-light z_indx d-flex justify-content-center align-items-center">
+        <section className="min-vh-100 bg-light z_indx d-flex justify-content-center align-items-center position-fixed start-0 top-0 w-100">
           <div class="lds-spinner">
             <div></div>
             <div></div>
