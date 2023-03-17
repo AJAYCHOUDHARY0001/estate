@@ -87,6 +87,15 @@
   box-shadow: 0 0 20px #2549d3;
 }
 
+.play_butn_hover {
+  transition: all 300ms ease-in-out;
+  border-radius: 50%;
+}
+
+.play_butn_hover:hover {
+  box-shadow: 0 0 20px #2549d3;
+}
+
 .white_clr {
   color: #ffffff !important;
 }
@@ -151,7 +160,7 @@ body {
   background: #ffffff;
   box-shadow: 24px 24px 48px rgba(37, 73, 211, 0.05);
   border-radius: 28px;
-  padding: 48px 67px;
+  padding: 40px 60px;
 }
 
 .btn-success {
