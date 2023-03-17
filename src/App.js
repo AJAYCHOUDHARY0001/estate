@@ -8,6 +8,7 @@ import Loader from "./Components/Loader";
 import Testimonials from "./Components/Testimonials";
 import { HowItWork } from "./Components/HowItWork";
 import { Footer } from "./Components/Footer";
+import BackToTop from "./Components/BackToTop";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Loader />
       <Testimonials />
       <Footer />
+      <BackToTop />
     </>
   );
 }
