@@ -148,7 +148,11 @@ function Header() {
                 Learn More
               </a>
               <a href="#">
-                <img src={play_btn} alt="play_btn" />
+                <img
+                  className="play_butn_hover"
+                  src={play_btn}
+                  alt="play_btn"
+                />
               </a>
             </div>
           </div>

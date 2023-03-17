@@ -7,9 +7,9 @@ function SearchDetail() {
   return (
     <section>
       <div className="container py-4 py-sm-5 d-flex justify-content-center">
-        <div className="detail_box col-xl-10">
+        <div className="detail_box col-xl-11">
           <div className="row justify-content-between align-items-center text-center text-sm-start">
-            <div className="col-sm-6 col-lg-2">
+            <div className="col-sm-6 col-lg-2  text-center">
               <Dropdown>
                 <Dropdown.Toggle
                   className="ff_space fw_700 fs_sm blue_clr"
@@ -29,7 +29,7 @@ function SearchDetail() {
                 Lekki
               </p>
             </div>
-            <div className="ps-sm-5 ps-lg-0 col-sm-6 col-lg-2">
+            <div className="ps-sm-5 ps-lg-0 col-sm-6 col-lg-2  text-center">
               <Dropdown>
                 <Dropdown.Toggle
                   className="ff_space fw_700 fs_sm blue_clr"
@@ -49,7 +49,7 @@ function SearchDetail() {
                 Duplex
               </p>
             </div>
-            <div className="col-sm-6 col-lg-2">
+            <div className="col-sm-6 col-lg-2  text-center">
               <Dropdown>
                 <Dropdown.Toggle
                   className="ff_space fw_700 fs_sm blue_clr"
@@ -69,12 +69,12 @@ function SearchDetail() {
                 $10,000
               </p>
             </div>
-            <div className="ps-sm-5 ps-lg-0 col-sm-6 col-lg-3">
+            <div className="ps-sm-5 ps-lg-0 col-sm-6 col-lg-3  text-center">
               <a
                 href="#"
                 className="d-inline-block butn1 ff_space fw_700 fs_sm text-nowrap"
               >
-                <img className="pe-3" src={search} alt="search" />
+                <img className="pe-3 pb-1" src={search} alt="search" />
                 Search
               </a>
             </div>
