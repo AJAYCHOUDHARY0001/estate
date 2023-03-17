@@ -6,6 +6,8 @@ import { OurFeatured } from "./Components/OurFeatured";
 import SearchDetail from "./Components/SearchDetail";
 import Loader from "./Components/Loader";
 import Testimonials from "./Components/Testimonials";
+import { Footer } from "./Components/Footer";
+import BackToTop from "./Components/BackToTop";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <OurFeatured />
       <Loader />
       <Testimonials />
+      <Footer />
+      <BackToTop />
     </>
   );
 }
