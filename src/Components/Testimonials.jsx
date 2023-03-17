@@ -24,7 +24,7 @@ function Testimonials() {
               <div className="p-3 bg-white rounded-4 card_1">
                 <h5 className="m-0 ff_space fw_700 fs_md">Alex Godwin </h5>
                 <p className="m-0 ff_nunito fw-semibold fs_xsm">South Africa</p>
-                <p className="m-0 ff_space fw_400 opacity-75 fs_xsm col-lg-11 mt-2">
+                <p className="m-0 ff_space fw_400 opacity-75 fs_xsm pe-lg-3 mt-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames
                   ut dictumst urna, lorem nibh. Pretium leo hendrerit interdum
                   netus
@@ -35,7 +35,7 @@ function Testimonials() {
               <div className="p-3 bg-white rounded-4 card_1">
                 <h5 className="m-0 ff_space fw_700 fs_md">Alex Godwin </h5>
                 <p className="m-0 ff_nunito fw-semibold fs_xsm">South Africa</p>
-                <p className="m-0 ff_space fw_400 opacity-75 fs_xsm col-lg-11 mt-2">
+                <p className="m-0 ff_space fw_400 opacity-75 fs_xsm pe-lg-3 mt-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames
                   ut dictumst urna, lorem nibh. Pretium leo hendrerit interdum
                   netus
@@ -46,7 +46,7 @@ function Testimonials() {
               <div className="p-3 bg-white rounded-4 card_1">
                 <h5 className="m-0 ff_space fw_700 fs_md">Alex Godwin </h5>
                 <p className="m-0 ff_nunito fw-semibold fs_xsm">South Africa</p>
-                <p className="m-0 ff_space fw_400 opacity-75 fs_xsm col-lg-11 mt-2">
+                <p className="m-0 ff_space fw_400 opacity-75 fs_xsm pe-lg-3 mt-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames
                   ut dictumst urna, lorem nibh. Pretium leo hendrerit interdum
                   netus

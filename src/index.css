@@ -24,11 +24,11 @@ body {
     flex: 0 0 auto !important;
     width: 31.5% !important;
   }
+  .width_331 {
+    width: 331px;
+  }
 }
 /* Footer */
 .bg_blue {
   background-color: #0f298b;
-}
-.width_331 {
-  width: 331px;
 }
