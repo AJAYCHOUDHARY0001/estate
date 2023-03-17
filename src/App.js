@@ -6,16 +6,20 @@ import { OurFeatured } from "./Components/OurFeatured";
 import SearchDetail from "./Components/SearchDetail";
 import Loader from "./Components/Loader";
 import Testimonials from "./Components/Testimonials";
+import { HowItWork } from "./Components/HowItWork";
+import { Footer } from "./Components/Footer";
 
 function App() {
   return (
     <>
       <Header />
       <SearchDetail />
+      <HowItWork />
       <ChooseUs />
       <OurFeatured />
       <Loader />
       <Testimonials />
+      <Footer />
     </>
   );
 }

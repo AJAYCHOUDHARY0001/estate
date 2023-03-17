@@ -12,7 +12,7 @@ export const Footer = () => {
                 <a className=" ff_oleo fw_400 fs_lg text-white m-0" href="/">
                   Dee’s Estate
                 </a>
-                <p className=" ff_nunito fw_400 fs_sm text-white mb-0 width_400">
+                <p className=" ff_nunito fw_400 fs_sm text-white mb-0 width_331">
                   Solution for easy and flexible house hunting.You can trust us
                   anywhere through this platform
                 </p>

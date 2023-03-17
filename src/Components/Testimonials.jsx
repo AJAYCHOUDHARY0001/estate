@@ -3,7 +3,6 @@ import React from "react";
 function Testimonials() {
   return (
     <>
-      {" "}
       <section>
         <div className="container py-4 py-sm-5">
           <h2 className="ff_space text-center blue_clr fw-bold fs_xl">
