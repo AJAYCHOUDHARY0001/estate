@@ -24,7 +24,7 @@ export const OurFeatured = () => {
           </div>
           <div className="row pt-5 justify-content-between">
             {/* row start */}
-            <div className="col-sm-6 width_md_31 h-100 mt-4 mt-md-0">
+            <div className="col-md-6 width_lg_31 h-100 mt-4 mt-md-0">
               <div className="card_1 p-2 bg-white px-4 border_radius_0_39 ">
                 <img className="w-100" src={house1} alt="Rhouse1" />
                 <div className="d-flex justify-content-between mt-2 align-items-center">
@@ -39,7 +39,7 @@ export const OurFeatured = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 width_md_31 h-100 mt-4 mt-md-0">
+            <div className="col-md-6 width_lg_31 h-100 mt-4 mt-md-0">
               <div className="card_1 p-2 bg-white px-4 border_radius_0_39 ">
                 <img className="w-100" src={house2} alt="Rhouse1" />
                 <div className="d-flex justify-content-between mt-2 align-items-center">
@@ -54,7 +54,7 @@ export const OurFeatured = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 width_md_31 h-100 mt-4 mt-md-0">
+            <div className="col-md-6 width_lg_31 h-100 mt-4 mt-md-0">
               <div className="card_1 p-2 bg-white px-4 border_radius_0_39 ">
                 <img className="w-100" src={house3} alt="Rhouse1" />
                 <div className="d-flex justify-content-between mt-2 align-items-center">

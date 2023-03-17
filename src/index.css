@@ -19,8 +19,8 @@ body {
 .border_radius_0_39 {
   border-radius: 0px 39.7214px;
 }
-@media (min-width: 768px) {
-  .width_md_31 {
+@media (min-width: 992px) {
+  .width_lg_31 {
     flex: 0 0 auto !important;
     width: 31.5% !important;
   }
